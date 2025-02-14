@@ -44,6 +44,17 @@
 3. **Delitos por tipo y género:** Gráfico de barras apiladas para analizar tendencias en tipos de delito.  
 4. **Tabla interactiva:** Resumen detallado y exportable de los datos filtrados.
 
+### Ejemplos de Visualizaciones
+Aquí algunos ejemplos de cómo luce el dashboard:
+
+1. **Distribución mensual de delitos**  
+   ![Distribución mensual de delitos](img/EjPlot1.png)
+
+2. **Delitos por género**  
+   ![Delitos por género](img/EjPlot2.png)
+
+3. **Delitos por tipo y género**  
+   ![Delitos por tipo y género](img/EjPlot3.png)
 
 📬 **Contacto:**  
 - **Correo:** [semiramis.gc18@gmail.com](mailto:semiramis.gc18@gmail.com)  
