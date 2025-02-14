@@ -1,33 +1,52 @@
 # Dashboard Interactivo para Análisis de Delitos en México
-Este proyecto desarrolla un dashboard interactivo en R Shiny para analizar la incidencia delictiva en México, permitiendo la exploración de datos por entidad, género, tipo de delito y año. El objetivo principal es proporcionar una herramienta intuitiva y visualmente atractiva para facilitar el análisis y la toma de decisiones basada en datos.
+
+> 🚨 **Herramienta de análisis para la incidencia delictiva en México**  
+> Este dashboard en R Shiny permite explorar datos de delitos por entidad, género, tipo y año de manera interactiva.
 
 
-## Características
-- Gráficos interactivos: Distribución de delitos por mes, género y tipo de delito.
-- Tabla de datos: Visualización y exportación de datos filtrados.
-- Filtros dinámicos: Personalización del análisis por entidad, género, tipo de delito y año.
-- Visualizaciones mejoradas: Uso de colores personalizados y etiquetas rotadas para gráficos legibles.
+## 🎯 **Características**
+- 📊 **Gráficos interactivos:** Análisis visual por mes, género y tipo de delito.
+- 🗂️ **Tabla dinámica:** Exportación de datos filtrados en formatos como CSV o Excel.
+- ⚙️ **Filtros personalizables:** Por entidad, tipo de delito, género y año.
+- 🎨 **Visualizaciones mejoradas:** Colores personalizados y etiquetas legibles para gráficos.
 
-## Tecnologías Utilizadas
-- R y Shiny: Para el desarrollo de la interfaz y la lógica reactiva.
-- Plotly: Para gráficos interactivos y dinámicos.
-- DT: Para tablas de datos interactivas con opciones de exportación.
-- ggplot2: Para gráficos estáticos mejorados.
+---
 
-## Uso
-- Filtra los datos por criterios como entidad, tipo de delito, género y año.
-- Explora los gráficos interactivos para identificar tendencias y patrones.
-- Descarga los datos filtrados en formatos como CSV o Excel.
+## 🗂️ **Datos Utilizados**
+> 📌 **Fuente:**  
+> Cifras de Víctimas del Fuero Común (2015 - diciembre 2024), provenientes del [SESNSP](https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva).
 
-## Visualizaciones Incluidas
-- Gráfico de barras: Análisis mensual de delitos.
-- Gráfico de barras apiladas: Comparación de tipos de delitos por género.
-- Distribución por género: Visualización de delitos desglosados por sexo.
-- Tabla de datos interactiva: Resumen detallado de los datos filtrados.
+- **Cobertura temporal:** 2015 - diciembre 2024.  
+- **Desglose:** Por entidad federativa, género, tipo de delito y año.
 
------------------------------------
+---
 
-## Cómo Ejecutar
-- Clona este repositorio.
-- Asegúrate de tener R y las librerías necesarias instaladas.
-- Ejecuta la aplicación usando shiny::runApp().
+## 🛠️ **Tecnologías Utilizadas**
+- **R y Shiny**: Desarrollo de la interfaz y lógica reactiva.
+- **Plotly**: Gráficos interactivos y dinámicos.
+- **DT**: Tablas de datos interactivas con opciones de exportación.
+- **ggplot2**: Gráficos estáticos estilizados.
+
+---
+
+## 🚀 **Instrucciones de Uso**
+1. Clona este repositorio en tu máquina local.
+2. Instala las librerías necesarias en R.
+3. Ejecuta la aplicación con `shiny::runApp()`.
+
+> 💡 **Tip:** Puedes personalizar los filtros en la interfaz para explorar los datos de manera más precisa.
+
+---
+
+## 📈 **Visualizaciones Incluidas**
+1. **Distribución mensual de delitos:** Gráfico de barras para identificar patrones por mes.  
+2. **Delitos por género:** Comparación de delitos desglosados por sexo.  
+3. **Delitos por tipo y género:** Gráfico de barras apiladas para analizar tendencias en tipos de delito.  
+4. **Tabla interactiva:** Resumen detallado y exportable de los datos filtrados.
+
+
+📬 **Contacto:**  
+- **Correo:** [semiramis.gc18@gmail.com](mailto:semiramis.gc18@gmail.com)  
+- **LinkedIn:** [Semiramis G. de la Cruz](https://www.linkedin.com/in/semiramis-g-de-la-cruz-56b3181b4/)  
+
+
